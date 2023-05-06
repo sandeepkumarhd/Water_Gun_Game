@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.game-container {
+  margin: 5rem auto 0rem auto;
+  width: 30%;
+  text-align: center;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aqua;
+  border-radius: 1rem;
+}
+.game-container div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aqua;
+}
+.game-container i {
+  font-size: 2.5rem;
+  background-color: blue;
+  padding: 1.5rem;
+  color: white;
+  margin: auto 1rem;
+  border-radius: 0.8rem;
+}
+.game-container i:hover {
+  background-color: white;
+  color: rgb(143, 6, 6);
+  cursor: pointer;
+}
+p {
+  font-size: 1.2rem;
+  color: blue;
+}
+.matching_Box {
+  height: 7rem;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem auto 0rem auto;
+  background-color: rgb(204, 233, 204);
+  border-radius: 1rem;
+}
+.matching_Box p {
+  font-size: 3rem;
+  color: rgb(38, 39, 36);
+}
+.matching_Box p:last-child {
+  font-size: 6.2rem;
+  color: red;
+}
+@media (max-width: 425px) {
+  .game-container {
+    margin: 5rem auto 0rem auto;
+    width: 90%;
+    text-align: center;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    border-radius: 1rem;
+  }
+  .game-container div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+  }
+  .game-container i {
+    font-size: 2rem;
+    background-color: blue;
+    padding: 1rem;
+    color: white;
+    margin: auto 1rem;
+    border-radius: 0.8rem;
+  }
+  .game-container i:hover {
+    background-color: white;
+    color: rgb(143, 6, 6);
+    cursor: pointer;
+  }
+  p {
+    font-size: 1.2rem;
+    color: blue;
+  }
+  .matching_Box {
+    height: 7rem;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem auto 0rem rem;
+    background-color: rgb(204, 233, 204);
+    border-radius: 1rem;
+  }
+  .matching_Box p {
+    font-size: 2rem;
+    color: rgb(38, 39, 36);
+  }
+  .matching_Box p:last-child {
+    font-size: 4.2rem;
+    color: red;
+  }
+  span {
+    color: blue;
+    text-align: center;
+    font-style: italic;
+  }
+}
