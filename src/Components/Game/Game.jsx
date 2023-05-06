@@ -44,7 +44,7 @@ const Game = () => {
 
   return (
     <div>
-      <span> Made by Snadeep Kumar</span>
+      <span> Made by Sandeep Kumar</span>
       {isValid && <WinningBanner message={winSms} />}
 
       <div className="matching_Box">
